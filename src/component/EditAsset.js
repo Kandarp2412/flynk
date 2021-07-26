@@ -357,31 +357,7 @@ function EditAsset() {
   }, [])
   const [file, setFile] = useState(null)
 
-  function handleUpdate() {
-    let pid = parentAsset.indexOf(passetvalue)
-    let lid = options1.current.indexOf(name1)
-    let sid = optionsys.current.indexOf(syscatname)
-
-    axios
-      .post('http://demo.travel.webbrainstechnologies.com/api/assets_update', {
-        name: nameVal.current,
-        manufacturer: manu,
-        team_id: team_id,
-        serial_number: sno,
-        description: desc,
-        asset_type_id: assetype,
-        location_id: loc_id[lid],
-        system_categories: syscat_id[sid],
-        parent_asset: passet_id[pid],
-        asset_id: itemId,
-
-      },{headers})
-      .then((res3) => {
-        console.log(res3)
-      })
-      .catch((err2) => console.log(err2))
-  }
-
+  
   const handleFile = (e) => {
     const files = e.target.files
     setSelectedFile([...selectedFile, e.target.files])
@@ -427,7 +403,7 @@ function EditAsset() {
         state: { newValue1: newValue1 },
       })
 
-      setAsset(asset.slice().concat(createOption(newValue1.value)))
+      setAsset(asset.slice().concat(createOptionSysCat(newValue1.value)))
     }
   }
   const [locationstate, setLocationState] = useState({

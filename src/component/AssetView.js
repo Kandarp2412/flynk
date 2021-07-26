@@ -136,6 +136,9 @@ function AssetView() {
     history.push('/asset/create')
   }
   const handleok = () => {
+    const headers = {
+      'Content-Type': "text/plain",
+      };
     setdel(false)
     axios
       .get(
