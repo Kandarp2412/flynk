@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/flynk/static/css/main.4b1c870b.chunk.css",
+    "main.js": "/flynk/static/js/main.65c16918.chunk.js",
+    "main.js.map": "/flynk/static/js/main.65c16918.chunk.js.map",
+    "runtime-main.js": "/flynk/static/js/runtime-main.87e58170.js",
+    "runtime-main.js.map": "/flynk/static/js/runtime-main.87e58170.js.map",
+    "static/js/2.ca24a4f0.chunk.js": "/flynk/static/js/2.ca24a4f0.chunk.js",
+    "static/js/2.ca24a4f0.chunk.js.map": "/flynk/static/js/2.ca24a4f0.chunk.js.map",
+    "static/js/3.66f48c45.chunk.js": "/flynk/static/js/3.66f48c45.chunk.js",
+    "static/js/3.66f48c45.chunk.js.map": "/flynk/static/js/3.66f48c45.chunk.js.map",
+    "index.html": "/flynk/index.html",
+    "static/css/main.4b1c870b.chunk.css.map": "/flynk/static/css/main.4b1c870b.chunk.css.map",
+    "static/js/2.ca24a4f0.chunk.js.LICENSE.txt": "/flynk/static/js/2.ca24a4f0.chunk.js.LICENSE.txt",
+    "static/media/asset_list.3b1af186.png": "/flynk/static/media/asset_list.3b1af186.png",
+    "static/media/view2.8805b657.png": "/flynk/static/media/view2.8805b657.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87e58170.js",
+    "static/js/2.ca24a4f0.chunk.js",
+    "static/css/main.4b1c870b.chunk.css",
+    "static/js/main.65c16918.chunk.js"
+  ]
+}
