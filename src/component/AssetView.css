@@ -1,0 +1,22 @@
+
+#sno{
+    position: relative;
+    line-height: 5em;
+    left: -19%;
+}
+#model{
+    position: relative;
+    line-height: 5em;
+    left: -7%;
+}
+#manufracture{
+    position: relative;
+    line-height: 5em;
+    left: -9%;
+}
+
+#year{
+    position: relative;
+    line-height: 15em;
+    right: 92%;
+}

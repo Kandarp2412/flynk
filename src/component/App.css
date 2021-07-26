@@ -74,13 +74,31 @@
 /* .MuiAutocomplete-inputRoot .MuiAutocomplete-input{
   height: '10px'!important
 } */
-.MuiInputBase-input .MuiOutlinedInput-input .MuiAutocomplete-input .MuiAutocomplete-inputFocused .MuiInputBase-inputAdornedEnd .MuiOutlinedInput-inputAdornedEnd .MuiInputBase-inputTypeSearch .MuiInputBase-inputMarginDense .MuiOutlinedInput-inputMarginDense{
-  margin-left: 10px !important
+.MuiInputBase-input
+  .MuiOutlinedInput-input
+  .MuiAutocomplete-input
+  .MuiAutocomplete-inputFocused
+  .MuiInputBase-inputAdornedEnd
+  .MuiOutlinedInput-inputAdornedEnd
+  .MuiInputBase-inputTypeSearch
+  .MuiInputBase-inputMarginDense
+  .MuiOutlinedInput-inputMarginDense {
+  margin-left: 10px !important;
 }
-.MuiInputBase-input .MuiOutlinedInput-input .MuiAutocomplete-input .MuiAutocomplete-inputFocused .MuiInputBase-inputAdornedEnd .MuiOutlinedInput-inputAdornedEnd .MuiInputBase-inputMarginDense .MuiOutlinedInput-inputMarginDense{
-padding-left: 5% !important;
-}
-.MuiInputBase-input {
-  padding-left: 5% !important;
-  }
 
+.css-2b097c-container {
+  width: 500px;
+  margin-left: 35px;
+}
+.primary{
+  background-color: grey;
+}
+.high{
+  background-color: red;
+}
+.medium{
+  background-color: orange;
+}
+.low{
+  background-color: green;
+}
